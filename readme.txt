@@ -9,7 +9,7 @@ The script will let you pick which input to use for a microphone.
 
 The Keyforge_Cards.csv, failedcards.txt, DarkTidings.dic, DarkTidings.lm and the Cards folder should be kept in the same folder as the Keyforge Voice.py python script.
 
-If the script fails to match a card from the csv with a file, it will record it it failedcards.txt. The data in this txt file can be deleted as needed.
+If the script fails to match a card from the csv with a file, it will record it in failedcards.txt. To fix this, update the cardname in the folder to match the csv. The data in this txt file can be deleted as needed.
 
 Words can be added or removed to the "nosearch" variable to help protect against false-positives or to prevent too many hits on common words
 
