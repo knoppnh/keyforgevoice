@@ -1,7 +1,27 @@
 play
 fight
 reap
+aemberling
+bellatoran-warrior
+berserker
 blorb
+cadet
+cleric
+cultist
+defender
+diplomat
+disciple
+explorer
+grunt
+priest
+prospector
+rebel
+researcher
+senator
+skirmisher
+squire
+strange-shell
+trader
 one two punch
 5c077
 5c077-evil twin
