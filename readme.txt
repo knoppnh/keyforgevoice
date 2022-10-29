@@ -24,7 +24,6 @@ Tools for creating a custom dictionary (add words or new cards to the Keyforge C
 	http://ghatage.com/tech/2012/12/13/Make-Pocketsphinx-recognize-new-words/
 
 To Do:
--Add feedback from the microphone to the GUI
 -Create an input panel on the GUI to select a keystroke
 -Script currently waits for one final keypress when quitting after running in Keystroke mode. Find way to stop script
 -Simplify running the script

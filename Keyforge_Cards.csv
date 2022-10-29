@@ -1,25 +1,3 @@
-aemberling,1
-bellatoran-warrior,1
-berserker,1
-blorb,1
-cadet,1
-cleric,1
-cultist,1
-defender,1
-diplomat,1
-disciple,1
-explorer,1
-grunt,1
-priest,1
-prospector,1
-rebel,1
-researcher,1
-senator,1
-skirmisher,1
-squire,1
-strange-shell,1
-trader,1
-one two punch,1
 5c077,1
 5c077-evil twin,1
 a fair game,1
@@ -30,16 +8,7 @@ abyssal zealot,1
 academy training,1
 access denied,1
 adaptoid,1
-amber conduction unit,1
-amber imp,1
-amberfin shark,1
-amberfin shark-evil twin,1
-amberheart,1
-amberlution,1
-ambermancy,1
-amberspine mongrel,1
-ambertracker,1
-amber-vac,1
+aemberling,1
 agent human,1
 agent sepdia,1
 aja the inconspicuous,1
@@ -51,6 +20,16 @@ almsmaster,1
 almsmaster-evil twin,1
 altruists rostrum,1
 ambassador liu,1
+amber conduction unit,1
+amber imp,1
+amberfin shark,1
+amberfin shark-evil twin,1
+amberheart,1
+amberlution,1
+ambermancy,1
+amberspine mongrel,1
+ambertracker,1
+amber-vac,1
 ammonia clouds,1
 amphora captura,1
 anahita the trader,1
@@ -105,8 +84,10 @@ beach day,1
 bear flute,1
 beasts bane,1
 begone,1
+bellatoran-warrior,1
 bellowing patrizate,1
 berinon,1
+berserker,1
 berserker slam,1
 bestiarii urso,1
 bestiarii urso-evil twin,1
@@ -128,6 +109,7 @@ blinding light,1
 blood money,1
 blood of titans,1
 bloodshard imp,1
+blorb,1
 blossom drake,1
 blypyp,1
 bo nithing,1
@@ -172,13 +154,12 @@ burn the stockpile,1
 burning glare,1
 bury riches,1
 buzzle,1
-candle unit,1
-cr officer hawkins,1
-cr officer hawkins-evil twin,1
+cadet,1
 call of the void,1
 call to action,1
 calv-1n,1
 camouflage,1
+candle unit,1
 cannon,1
 captain kresage,1
 captain kresage-evil twin,1
@@ -225,6 +206,7 @@ city gates,1
 city-state interest,1
 cleansing wave,1
 clear mind,1
+cleric,1
 cloaking dongle,1
 code monkey,1
 collar of subordination,1
@@ -250,6 +232,8 @@ corrode,1
 cowards end,1
 cowfyne,1
 cowfynes brew,1
+cr officer hawkins,1
+cr officer hawkins-evil twin,1
 crash muldoon,1
 crassosaurus,1
 crazy killing machine,1
@@ -263,6 +247,7 @@ crystal hive,1
 crystal surge,1
 culf the quiet,1
 cull the weak,1
+cultist,1
 cup of water,1
 curia saurus,1
 curiosity,1
@@ -297,6 +282,7 @@ deep priest glebe,1
 deep probe,1
 deepwater gruen,1
 deepwood druid,1
+defender,1
 defense initiative,1
 deipno spymaster,1
 demons bane,1
@@ -321,10 +307,12 @@ dino-knight,1
 dinosaurs bane,1
 dino-thief,1
 diplo-macy,1
+diplomat,1
 diplomat agung,1
 director of zyx,1
 dis ambassador,1
 dis plant,1
+disciple,1
 discombobulator,1
 disruption field,1
 dive deep,1
@@ -354,7 +342,6 @@ duskwitch,1
 dust imp,1
 dust pixie,1
 dysania,1
-ee on the fringes,1
 early birds,1
 earthbind,1
 earthshaker,1
@@ -365,6 +352,7 @@ eclectic ambrosius,1
 eclectic ambrosius-evil twin,1
 eclectic inquiry,1
 edai edie 4x4,1
+ee on the fringes,1
 effervescent principle,1
 effigy of melerukh,1
 eldest bear,1
@@ -392,6 +380,7 @@ exile,1
 experimental therapy,"Should read: This creature may be used as if it belonged to the active house. 
 Play: Stun and exhaust this creature."
 exploratory craft,1
+explorer,1
 explo-rover,1
 exterminate exterminate,1
 extinction,1
@@ -479,8 +468,8 @@ giants bane,1
 giltspine netcaster,1
 giltspine netcaster-evil twin,1
 gizelharts standard,1
-gizelharts zealot,1
 gizelharts wrath,1
+gizelharts zealot,1
 gladiodontus,1
 gleeful mayhem,1
 glimmer,1
@@ -519,6 +508,7 @@ grovekeeper,1
 growth surge,1
 grump buggy,1
 grumpus tamer,1
+grunt,1
 guard disguise,1
 guardian demon,1
 gub,1
@@ -622,13 +612,13 @@ iss indominus,1
 its coming,1
 ixxyxli fix finger,1
 j vinda,1
-jon cargo,1
 jackie tar,1
 jammer pack,1
 jargogle,1
 jehu the bureaucrat,1
 john smyth,1
 johnny longfingers,1
+jon cargo,1
 kaloch stone father,1
 kangaphant,1
 kartanoo,1
@@ -660,11 +650,11 @@ kymoor eclipse,1
 labwork,1
 lady loreena,1
 lady maxena,1
-larie of the lake,1
-larie of the lake-evil twin,1
 lamindra,1
 lapisaurus,1
 lapisaurus-evil twin,1
+larie of the lake,1
+larie of the lake-evil twin,1
 lash of broken dreams,1
 lateral shift,1
 lava ball,1
@@ -725,7 +715,6 @@ mab the mad,1
 macis asp,1
 mack the knife,1
 mad prophet gizelhart,1
-malstrom,1
 magda the rat,"Should read: Elusive.
 Play: Steal 2 aember. If Magda the Rat leaves play, your opponent steals 2 aember."
 magistra vita,1
@@ -733,6 +722,7 @@ magistra vita-evil twin,1
 make it so,1
 maleficorn,1
 malison,1
+malstrom,1
 manchego,1
 mantle of the zealot,1
 mark of dis,1
@@ -870,6 +860,7 @@ old yurk,1
 omnipus,1
 one last job,1
 one stood against many,1
+one two punch,1
 one-eyed willa,1
 one-eyed willa-evil twin,1
 onyx knight,1
@@ -931,12 +922,12 @@ pit demon,1
 pitlord,1
 plague rat,1
 plasma nozzle,1
-pos pixies,1
 pocket universe,1
 poison wave,1
 poke,1
 poltergeist,1
 portalmonger,1
+pos pixies,1
 positron bolt,1
 potion of invulnerability,1
 pound,1
@@ -945,6 +936,7 @@ power of fire,1
 praefectus ludo,1
 prescriptive grammarbot,1
 pride,1
+priest,1
 primal relic,1
 primus unguis,1
 prince derric unifier,1
@@ -955,6 +947,7 @@ prof garwynne-evil twin,1
 professor sutterkin,1
 professor terato,1
 project zyx,1
+prospector,1
 protect the weak,1
 protectrix,1
 psionic officer lang,1
@@ -988,6 +981,7 @@ rapid evolution,1
 reach advantage,1
 reap or sow,1
 reassembling automaton,1
+rebel,1
 reckless experimentation,1
 reckless rizzo,1
 reclaimed by nature,1
@@ -1005,6 +999,7 @@ relentless whispers,1
 remote access,1
 replicator,1
 research smoko,1
+researcher,1
 restringuntus,1
 resurgence,1
 reverse time,1
@@ -1078,6 +1073,7 @@ seismo-entangler,1
 selective preservation,1
 self-bolstering automata,1
 selwyn the fence,1
+senator,1
 senator bracchus,1
 senator quintina,1
 senator shrix,1
@@ -1126,6 +1122,7 @@ sir marrows,1
 siren horn,1
 skeleton key,1
 skippy timehog,1
+skirmisher,1
 skixuno,1
 sköll,1
 skullion,1
@@ -1140,8 +1137,8 @@ smiling ruth,1
 smite,1
 smith,1
 snag,1
-snags mirror,1
 snaglet,1
+snags mirror,1
 snarette,1
 sneklifter,1
 sniffer,1
@@ -1171,6 +1168,7 @@ sporegorger,1
 sporegorger-evil twin,1
 spyyyder,1
 squawker,1
+squire,1
 squire alys,1
 stampede,1
 standardized testing,1
@@ -1189,6 +1187,7 @@ storm crawler,1
 storm surge,1
 strange gizmo,1
 strange ordination,1
+strange-shell,1
 streke,1
 stunner,1
 subdue,1
@@ -1297,6 +1296,7 @@ tomwa of the glow,1
 tomwa of the glow-evil twin,1
 too much to protect,1
 total recall,1
+trader,1
 transporter platform,1
 transposition sandals,1
 treasure map,1
@@ -1415,7 +1415,6 @@ yxilo bolter,1
 yxilx dominator,1
 yxlyx stimrager,1
 yzphyz knowdrone,"Should read: Play: Archive a card. You may purge an archived card. If you do, stun a creature."
-zyx researcher,1
 zap,1
 zenzizenzizenzic,1
 z-force agent 14,1
@@ -1424,4 +1423,5 @@ z-particle tracker,1
 z-ray blaster,1
 z-wave emitter,1
 zysysyx shockworm,1
+zyx researcher,1
 zyzzix the many,1
