@@ -20,9 +20,12 @@ errata = []
 window_name="Keyforge Match" #name of the window that this script opens when it finds a match 
 keyword=["play", 'fight', 'reap'] #change these values to add keywords for speech recognition. new words will need to be added to the dictionary
 keystroke="`" #change this value to use a different keyboard key for speech recognition
+feedback=""
+matches=""
 i=0
 j=0
 k=0
+
 mic=[]
 countmics=0
 micindex=0
@@ -58,7 +61,7 @@ def searching(selected):
     )
     j=0
     i=0
-    k=0    
+    k=0
     keyword=["play", 'fight', 'reap'] #change these values to add keywords for speech recognition. new words will need to be added to the dictionary
     keystroke="`" #change this value to use a different keyboard key for speech recognition
     while k==0:
@@ -84,6 +87,10 @@ def searching(selected):
                     print("End")
                     break
                 Card=str(phrase).lower()
+                feedback=Card
+                if feedback!="":
+                    response.configure(text="Heard: " + feedback)
+                #res.pack(anchor = "w")
                 print(str(Card)) #this prints what the microphone hears to the shell
                 Card=Card.split() #splits input into individual words to check
                 Card=list(dict.fromkeys(Card)) #removes duplicate words from list
@@ -103,7 +110,8 @@ def searching(selected):
                 for i in multimode(duplicate): #finds the mode 
                     if len(multimode(duplicate)) <5: #limits the number of cards to less than 5 at a time
                         image=resource_path(Location+cardlist[i].replace(" ","-")+".png")
-                        print("FOUND " + str(len(multimode(duplicate)))+ " CARD MATCH(ES): " + cardlist[i])
+                        matches=("FOUND " + str(len(multimode(duplicate)))+ " CARD MATCH(ES): " + cardlist[i])
+                        found.configure(text=matches)
                         if errata[i] != "1":
                             print("Errata found: " + str(errata[i]))
                         if os.path.isfile(image) is True:
@@ -112,7 +120,6 @@ def searching(selected):
                                  cv2.putText(img, "Errata'd" , (30, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_8)
                             img=cv2.resize(img,(300,420))
                             cv2.imshow(window_name, img)
-                            #cv2.waitKey(1)                            
                             if selected == 2:
                                 cv2.waitKey(display*1000+4000) 
                                 #keyboard.wait(keystroke)
@@ -140,11 +147,11 @@ def searching(selected):
                     break
                 pass
             
-def close(selected):
-    global close
+def close(selected): #this window runs the searching script
+    global close, response, found, matches
     close=tk.Tk()
     close.title("Keyforge Voice Helper")
-    close.geometry('400x125')
+    close.geometry('400x150')
     if selected == 1:
          Label=tk.Label(text="Using CONTINUOUS recognition")
          Label1= tk.Label(text='Say these words: ' +str(keyword) + " to recognize a card")
@@ -152,9 +159,13 @@ def close(selected):
          Label=tk.Label(text="Using KEYSTROKE recognition")
          Label1=tk.Label(text='Use this key: ' + str(keystroke) + " (you will need to hit this key to close the image window)")
     Button = tk.Button(close, text="Close Script", command = lambda: escape(selected))
+    response=tk.Label(close,textvariable=feedback) #this label outputs what the program 'heard'
+    found=tk.Label(close,textvariable=matches) #this label outputs what the program finds
     Label.pack(side='top', anchor = 'w')
     Label1.pack(anchor='w')
     Button.pack(pady=20, anchor='center')
+    response.pack(anchor='w')
+    found.pack(anchor='w')
     close.mainloop()
 
 def escape(selected):
@@ -163,14 +174,14 @@ def escape(selected):
         keyboard.write(keystroke)
     close.destroy()
 
-def selection():
+def selection(): #this selects the microphone inputs from the radio buttons
     selected = radio.get()
-    print(deviceindex.get())
+    #print(deviceindex.get())
     for i in range(0,countmics):
         if mics[i]==deviceindex.get():
             micindex=int(mic[i])
-    print(mic)
-    print(micindex)
+    #print(mic)
+    #print(micindex)
     window.destroy()
     searching(selected)
 
@@ -180,13 +191,13 @@ numdevices = info.get('deviceCount')
 mics=[]
 #print(numdevices)
 
-for i in range(0, numdevices):
+for i in range(0, numdevices): #this searches for connect mics and adds their names in a list
     if (p.get_device_info_by_host_api_device_index(0, i).get('maxInputChannels')) > 0:
         mics.append((p.get_device_info_by_host_api_device_index(0, i).get('name')))
         mic.append(p.get_device_info_by_host_api_device_index(0, i).get('index'))
         countmics=countmics+1
-        print(mic)
-        print(mics)
+        #print(mic)
+        #print(mics)
 
 deviceindex=tk.StringVar(value=mics[0])
 drop=tk.OptionMenu(window, deviceindex, *mics)
