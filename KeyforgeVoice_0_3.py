@@ -1,4 +1,4 @@
-import cv2, os.path, csv, re, pyaudio, datetime, time, keyboard, threading
+import cv2, os.path, csv, re, pyaudio, time, keyboard, threading
 from pocketsphinx import LiveSpeech
 from statistics import multimode
 import tkinter as tk
@@ -30,7 +30,6 @@ mic=[]
 countmics=0
 micindex=0
 
-global kill
 kill=threading.Event()
 kill.set()
 
@@ -58,6 +57,7 @@ def searching(selected):
         audio_device = micindex,
         lm=resource_path('Keyforge.lm'), #this is the language model file
         dic=resource_path('Keyforge.dic') #this is the dictionary file
+        #hmm=resource_path('en-us/')
     )
     j=0
     i=0
@@ -215,3 +215,4 @@ miclabel=tk.Label(text="Choose a microphone:").pack(anchor='w')
 drop.pack()
 Button.pack(pady=40)
 window.mainloop()
+
