@@ -109,7 +109,15 @@ def searching(selected):
                     #match=list(dict.fromkeys(match)) #remove duplicate card matches
                 for i in multimode(duplicate): #finds the mode of the matches
                     if len(multimode(duplicate)) <5: #limits the number of cards to less than 5 at a time
-                        image=resource_path(Location+cardlist[i].replace(" ","-")+".png")
+                        image=resource_path(Location+cardlist[i].replace(" ","-"))#+".png")
+                        #Looks for extension and sets the image name
+                        if os.path.isfile(image+".png") == True:
+                            image=image+".png"
+                        if os.path.isfile(image+".jpg") == True:
+                            image=image+".jpg"
+                        if os.path.isfile(image+".jpeg") == True:
+                            image=image+".jpeg"
+                        
                         matches=("FOUND " + str(len(multimode(duplicate)))+ " CARD MATCH(ES): " + cardlist[i])
                         found.configure(text=matches)
                         if errata[i] != "1":
