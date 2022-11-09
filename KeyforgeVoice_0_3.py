@@ -1,4 +1,4 @@
-import cv2, os.path, csv, re, pyaudio, time, keyboard, threading
+import cv2, os.path, csv, re, pyaudio, time, keyboard, threading, datetime
 from pocketsphinx import LiveSpeech
 from statistics import multimode
 import tkinter as tk
@@ -107,7 +107,7 @@ def searching(selected):
                         j=j+1
                     j=0
                     #match=list(dict.fromkeys(match)) #remove duplicate card matches
-                for i in multimode(duplicate): #finds the mode 
+                for i in multimode(duplicate): #finds the mode of the matches
                     if len(multimode(duplicate)) <5: #limits the number of cards to less than 5 at a time
                         image=resource_path(Location+cardlist[i].replace(" ","-")+".png")
                         matches=("FOUND " + str(len(multimode(duplicate)))+ " CARD MATCH(ES): " + cardlist[i])
@@ -118,7 +118,7 @@ def searching(selected):
                             img=cv2.imread(image)
                             if errata[i] != "1":
                                  cv2.putText(img, "Errata'd" , (30, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_8)
-                            img=cv2.resize(img,(300,420))
+                            img=cv2.resize(img,(300,420)) #this resizes the images
                             cv2.imshow(window_name, img)
                             if selected == 2:
                                 cv2.waitKey(display*1000+4000) 

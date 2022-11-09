@@ -9,8 +9,8 @@ output=[]
 files = os.listdir(location)
 k=0
 
-old=["Woe_","_",".jpg"] #replace the strings in this list --->
-replaced=["","-",".png"] #with the strings in this list
+old=["Woe_","_",".jpg",".jpeg"] #replace the strings in this list --->
+replaced=["","-",".png",."png"] #with the strings in this list
 
 for i in range(len(files)):
     filename=files[i]
