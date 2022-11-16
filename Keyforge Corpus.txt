@@ -1,38 +1,35 @@
 play
 fight
 reap
-aemberling
-bellatoran-warrior
-berserker
-blorb
-cadet
-cleric
-cultist
-defender
-diplomat
-disciple
-explorer
-grunt
-priest
-prospector
-rebel
-researcher
-senator
-skirmisher
-squire
-strange-shell
-trader
-one two punch
 5c077
 5c077-evil twin
 a fair game
 a vinda
 abandon ship
 abond the armorsmith
+absolve
 abyssal zealot
+abyssal-sight
 academy training
 access denied
 adaptoid
+adult-swim
+aedile-tullia
+aemberling
+aembitrage
+aembrosia-outpost
+agent human
+agent sepdia
+airlock
+aja the inconspicuous
+alaka
+alakas brew
+all tide up
+allusions of grandeur
+almsmaster
+almsmaster-evil twin
+altruists rostrum
+ambassador liu
 amber conduction unit
 amber imp
 amberfin shark
@@ -43,23 +40,13 @@ ambermancy
 amberspine mongrel
 ambertracker
 amber-vac
-agent human
-agent sepdia
-aja the inconspicuous
-alaka
-alakas brew
-all tide up
-allusions of grandeur
-almsmaster
-almsmaster-evil twin
-altruists rostrum
-ambassador liu
 ammonia clouds
 amphora captura
 anahita the trader
 ancient bear
 ancient power
 ancient yurk
+ancient-battleground
 anger
 angry mob
 angwish
@@ -67,53 +54,70 @@ animator
 ankylo formation
 annihilation ritual 
 anomaly exploiter
+antiquities-dealer
 antony
+aquilia-lone-hero
 archimedes
 archons callback
 archons revenge
 ardent hero
 arise
+aristotlmimus
 armadrone
 armadrone-evil twin
 armageddon cloak
 armory officer nel
 armsmaster molina
+arm-the-plebeians
 assert dominance
 aubade the grim
+auction-off
 austeralis seaborg
 autocannon
 auto-encoder
 auto-legionary
 auto-vac 5150
 avenging aura
+avid-collecting
 away team
 axiom of grisk
+azure-basin-outpost
+b0-t
 babbling bibliophile
 backup copy
 backup plan
 bad penny
 badgemagus
+badge-of-unity
 bait and switch
 baldric the bold
 ballcano
+ballistego
 banish
 banner of battle
 barehanded
 barn razing
 baron mengevin
 barrister joya
+batariel-of-the-grey
 batdrone
 battle fleet
+battlevangelist
 beach day
 bear flute
 beasts bane
+befuddle
 begone
+bellatoran-warrior
+belligerent-guard
 bellowing patrizate
 berinon
+berserker
 berserker slam
 bestiarii urso
 bestiarii urso-evil twin
 beware the ides
+big-magnet
 bigtwig
 bilgewarden
 bilgum avalanche
@@ -131,6 +135,8 @@ blinding light
 blood money
 blood of titans
 bloodshard imp
+blorb
+blorb-hive
 blossom drake
 blypyp
 bo nithing
@@ -141,6 +147,7 @@ booby trap
 book of leq
 book of malefaction
 bordan the redeemed
+borka-rikk
 borr nit
 borr nits touch
 borrow
@@ -150,21 +157,27 @@ bouncing deathquark
 brabble
 bracchanalia
 brachiaditus
+brackish-shoreline
 brain drain
 brain eater
 brain stem antenna
+braindart
 bramble lynx
 brammo
+brawl-in
 breaker hill
 break-key
 brend the fanatic
 briar grubbling
+brikk-nastee
 bring low
 brobnar ambassador
 brobnar plant
+broken-axe-outpost
 bronze key imp
 brothers in battle
 brutodon auxiliary
+bryozoarch
 bubbles
 bulleteye
 bull-wark
@@ -175,13 +188,13 @@ burn the stockpile
 burning glare
 bury riches
 buzzle
-candle unit
-cr officer hawkins
-cr officer hawkins-evil twin
+cadet
 call of the void
 call to action
 calv-1n
+camaraderie
 camouflage
+candle unit
 cannon
 captain kresage
 captain kresage-evil twin
@@ -191,9 +204,11 @@ captain val jericho
 carlo phantom
 carpe vinum
 carpet phloxem
+catch-and-release
 cauldron boil
 causal loop
 ceaseforge
+celestial-gorm
 cement shoes
 censor philo
 censor philo-evil twin
@@ -206,9 +221,11 @@ challe the safeguard
 champion anaphiel
 champion tabris
 champions challenge
+chancellor-dexterus
 chans blaster
 chant of hubris
 chaos portal
+chaosodon
 charette
 charge
 charybdis
@@ -228,10 +245,15 @@ city gates
 city-state interest
 cleansing wave
 clear mind
+cleric
 cloaking dongle
+clone-home
+closed-door-negotiation
 code monkey
 collar of subordination
 collector worm
+collector-boren
+colonel-mariana
 colonist chapman
 colonist chapman-evil twin
 com officer gross
@@ -244,15 +266,22 @@ commander dhrxgar
 commander remiel
 commpod
 commune
+conductor-jarroya
+conscription
 consul primus
 containment field
 control the weak
 cooperative hunting
+corner-the-market
 cornicen octavia
 corrode
+covetous-hema
 cowards end
 cowfyne
 cowfynes brew
+cpo-zytar
+cr officer hawkins
+cr officer hawkins-evil twin
 crash muldoon
 crassosaurus
 crazy killing machine
@@ -260,16 +289,22 @@ creed of nature
 creed of nurture
 creeping oblivion
 crewman jörg
+crim-torchtooth
+crogg-the-clumsy
 cross porpoises
 crushing charge
+crushing-deep
 crystal hive
 crystal surge
 culf the quiet
 cull the weak
+cultist
+cultural-exchange
 cup of water
 curia saurus
 curiosity
 curse of vanity
+cursed-relic
 custom virus
 customs office
 cutthroat research
@@ -300,6 +335,7 @@ deep priest glebe
 deep probe
 deepwater gruen
 deepwood druid
+defender
 defense initiative
 deipno spymaster
 demons bane
@@ -324,10 +360,12 @@ dino-knight
 dinosaurs bane
 dino-thief
 diplo-macy
+diplomat
 diplomat agung
 director of zyx
 dis ambassador
 dis plant
+disciple
 discombobulator
 disruption field
 dive deep
@@ -342,6 +380,7 @@ dr escotera
 dr milli
 dr verokter
 draco praeco
+dragnet
 draining touch
 drawn down
 dreadbone decimus
@@ -350,6 +389,7 @@ dredging druid
 drumble
 drummernaut
 dry the river
+dthoshra-recruiter
 duma the martyr
 dusk chronicles
 duskrunner
@@ -357,29 +397,35 @@ duskwitch
 dust imp
 dust pixie
 dysania
-ee on the fringes
 early birds
 earthbind
 earthshaker
 easy marks
 eater of the dead
 echo pearl
+echo-reflector
 eclectic ambrosius
 eclectic ambrosius-evil twin
 eclectic inquiry
 edai edie 4x4
+edict-of-nerotaurus
+ee on the fringes
 effervescent principle
 effigy of melerukh
 eldest bear
+election
 ember imp
 emp blast
 encounter suit
+endless-hordes
 enlist numeri
 ensign el-samra
 entropic manipulator
 entropic swirl
+envoy-of-ekwirre
 envy
 epic quest
+epic-poem
 equalize
 essence scale
 etans jar
@@ -390,23 +436,29 @@ eureka
 evasion sigil
 even ivan
 exchange officer
+exchange-program
 exhume
 exile
+exo-shell-system
 experimental therapy
 exploratory craft
+explorer
 explo-rover
 exterminate exterminate
 extinction
+extrematode-infection
 eye of judgment
 eyegor
 fandangle
 fanghouse
 fangs of gizelhart
 fangtooth cavern
+fathom-reaver
 faust the great
 favor of rex
 faygin
 fear
+feats-of-strength
 feeding pit
 fertility chant
 festering touch
@@ -421,6 +473,7 @@ firespitter
 first blood
 first officer frane
 first or last
+fish
 fission bloom
 flamegill enforcer
 flamegill enforcer-evil twin
@@ -429,13 +482,17 @@ flamewake shaman
 flame-wreathed
 flash freeze
 flaxia
+flea-market
 floomf
+flounderight
+fof-transponder
 fogbank
 foggify
 follow the leader
 font of the eye
 foozle
 force field
+forced-retirement
 forge compiler
 forgemaster og
 forging an alliance
@@ -447,10 +504,16 @@ franes blaster
 free markets
 freebooter faye
 freebooter faye-evil twin
+freelancer
+fresh-marks
+friendly-guide
+friendship
 frigorific rod
+frost-giant
 fuguru
 full moon
 furtive investors
+future-booster
 fuzzy gruen
 fyre-breath
 gabos longarms
@@ -460,6 +523,7 @@ gambling den
 gamgee
 ganger chieftain
 ganymede archivist
+ganymede-outpost
 garcias blaster
 gargantes scrapper
 gargantodon
@@ -468,10 +532,17 @@ gatekeeper
 gateway to dis
 gauntlet of command
 gebuk
+ged-hammer
+gemcoat-vendor
 general order 24
 general sherman
 general xalvador
+general-za-orha
+generous-offer
 genetic drift
+genetic-blast
+gezdrutyo-the-arcane
+gezrahi-blacksmith
 ghostform
 ghosthawk
 ghostly hand
@@ -480,15 +551,17 @@ giant sloth
 giants bane
 giltspine netcaster
 giltspine netcaster-evil twin
+giltspine-school
 gizelharts standard
-gizelharts zealot
 gizelharts wrath
+gizelharts zealot
 gladiodontus
 gleeful mayhem
 glimmer
 glorianas attendant
 glorious few
 gluttony
+glylyx-weaponsmith
 glyxl proliferator
 gold key imp
 golden aura
@@ -496,6 +569,7 @@ gongoozle
 good of the many
 gorm of omm
 grabber jammer
+grammaticus-thrax
 grand alliance council
 grand melee
 grasping vines
@@ -503,10 +577,12 @@ gravelguts
 gravid cycle
 greater oxtet
 greed
+green-aeronaut
 grenade snib
 grey augur
 grey augur-evil twin
 grey monk
+grey-abbess
 grim reminder
 grimlocus dux
 groggins
@@ -514,13 +590,17 @@ groke
 grokes brew
 grommid
 gron nine-toes
+grondal
 grons brew
 groundbreaking discovery
 groupthink tank
 grovekeeper
 growth surge
 grump buggy
+grumpus
 grumpus tamer
+grunt
+grunt-work
 guard disguise
 guardian demon
 gub
@@ -529,8 +609,10 @@ guji dinosaur hunter
 hadron collision
 haedroths wall
 halacor
+hallafest
 hallowed blaster
 hallowed shield
+halo-of-enlightenment
 hammer-gram
 hand cannon
 hand of dis
@@ -540,6 +622,7 @@ harbinger of doom
 hard simpson
 hard simpson-evil twin
 harland mindlock
+harmal-atoon
 harmonia
 harmonic ritual
 harvest time
@@ -550,6 +633,7 @@ headhunter
 heal or harm
 healing blast
 heart of the forest
+heavy-subsidies
 hebe the huge
 hecatomb
 hedonistic intent
@@ -561,6 +645,7 @@ hexpion
 hidden stash
 hideaway hole
 high priest torvus
+hire-on
 hit and run
 hobnobber
 hobnobber-evil twin
@@ -572,6 +657,7 @@ honor or glory
 honorable claim
 honors keysis
 hookmaster
+hoplites-dory
 hornswoggle
 horrid synan
 horrid synan-evil twin
@@ -586,12 +672,16 @@ hunter or hunted?
 hunting witch
 hyde
 hydrocataloguer
+hymn-to-duma
 hypnobeam
 hypnotic command
+hypoxia
 hysteria
 hystricog
 igon the green
 igon the terrible
+ikwiji-outpost
+imperator-drusilla
 imperial forge
 imperial road
 imperial scutum
@@ -608,35 +698,49 @@ information exchange
 information officer gray
 infurnace
 ingrams blaster
+initiation
 inka the spider
 inky gloom
 inspiration
+inspiring-oration
 instrument of silence
+insurance-policy
 interdimensional graft
 into the fray
 into the night
 invasion portal
 irestaff
 iron obelisk
+ironyx-banner
+ironyx-propaganda
+ironyx-rebel
+ironyx-vatminder
 irradiated amber
 isotropic core
 iss indominus
 its coming
 ixxyxli fix finger
 j vinda
-jon cargo
 jackie tar
 jammer pack
 jargogle
+jarl-svend
 jehu the bureaucrat
 john smyth
 johnny longfingers
+jon cargo
+kaboom
 kaloch stone father
+kamalani
 kangaphant
 kartanoo
+kassiel-the-benevolent
+katerina-the-summoner
 kaupe
 kaupe-evil twin
 kelifi dragon
+kelping-hands
+kelpminder
 kerwollop
 key abduction
 key charge
@@ -652,27 +756,30 @@ kindrith longshot
 king of the crag
 kirbys blaster
 kiri giltspine
+knightapult
 knowledge is power
 knoxx
 knuckles bolton
 kompsos haruspex
+kretchee
 krrrzzzaaap
 krump
 kymoor eclipse
 labwork
 lady loreena
 lady maxena
-larie of the lake
-larie of the lake-evil twin
 lamindra
 lapisaurus
 lapisaurus-evil twin
+larie of the lake
+larie of the lake-evil twin
 lash of broken dreams
 lateral shift
 lava ball
 lay of the land
 lcdr trigon
 legatus raptor
+legionary-trainer
 legions march
 lesser oxtet
 lethal distraction
@@ -691,6 +798,7 @@ lifeward
 lifeweb
 light everlasting
 light of the archons
+lightbringer-outpost
 lights out
 lightsmith clariel
 lightsmith clariel-evil twin
@@ -705,6 +813,7 @@ logos plant
 lollop the titanic
 lomir flamefist
 longfused mines
+longusaur-lector
 look over there
 look what i found
 loot or pillage
@@ -727,16 +836,18 @@ mab the mad
 macis asp
 mack the knife
 mad prophet gizelhart
-malstrom
 magda the rat
 magistra vita
 magistra vita-evil twin
+magistrate-crispus
 make it so
 maleficorn
 malison
+malstrom
 manchego
 mantle of the zealot
 mark of dis
+market-crash
 marmo swarm
 mars ambassador
 mars first
@@ -744,10 +855,13 @@ mars needs amber
 marshal ewer
 martian generosity
 martian hounds
+martian-revolution
 martians make bad allies
+martyr-of-the-vault
 martyrs end
 maruck the marked
 mass abduction
+mass-buyout
 master of 1
 master of 2
 master of 3
@@ -768,12 +882,15 @@ mega gron nine-toes
 mega mogghunter
 mega narp
 mega shorty
+membership-drive
 memolith
 memory chip
+memrox-the-red
 mercy malkin queen
 miasma
 miasma bomb
 might makes right
+might-club
 mighty javelin
 mighty lance
 mighty tiger
@@ -786,13 +903,16 @@ mindfire
 mindwarper
 mindworm
 mini groupthink tank
+mirror-shell
 misery exploit
+mk2-generator
 mobius scroll
 mogghunter
 mogghunters brew
 mole
 molephin
 molinas blaster
+molluscaller
 mollymawk
 monty bank
 monty bank-evil twin
@@ -816,6 +936,7 @@ murkens
 murmook
 mushroom man
 mushroom with a view
+muster
 musthic murmook
 mutagenesis researcher
 mutagenic serum
@@ -824,9 +945,11 @@ mutation of cunning
 mutation of fury
 mutation of instinct
 myliobe
+myx-the-tallminded
 narp
 narps brew
 natures call
+nautilixian
 navigator ali
 neffru
 nepenthe seed
@@ -841,24 +964,30 @@ niffle ape
 niffle grounds
 niffle kong
 niffle queen
+niffle-paw
 nightforge
+nirbor-flamewing
 nizak the forgotten
 no safety in numbers
 nocturnal maneuver
 noddy the thief
 nogi smartfist
 noname
+norbyns-cavern
 not finished with you
 novu archaeologist
 novu dynamo
 numquid the fair
 nurse soto
+nyyon-outpost
 nyzyk resonator
 oath of poverty
 observ-u-max
 obsidian forge
 odd clawde
 odoac the patrician
+offering-to-kiligog
+offering-to-kiligog-2
 officers blaster
 ogopogo
 ol paddy
@@ -871,6 +1000,7 @@ old yurk
 omnipus
 one last job
 one stood against many
+one two punch
 one-eyed willa
 one-eyed willa-evil twin
 onyx knight
@@ -885,38 +1015,49 @@ orator hissaro
 orb of invidius
 orb of wonder
 orbital bombardment
+ornate-talking-tray
 orphiel seas chosen
 orphion lands chosen
 ortannu the chained
 ortannus binding
+ostentatious-mount
 ostracize
 oubliette
+outflank
+outnegotiate
 overlord greking
 overrun
 ozmo martianologist
 pain reaction
 painmail
+pale-into-insignificance
 pandemonium
+pandulf-the-provoker
 panpaca anga
 panpaca jaga
 paraguardian
 particle sweep
 patronage
 pawn sacrifice
+pax-sauriana
 peace accord
+pelf
 perilous wild
 perplexing sophistry
 persistence hunting
 pestergrove
 pestering blow
 phalanx strike
+phalanx-leader
 phase shift
 philophosaurus
 phloxem spike
 phoenix heart
 phosphorus stars
 photic raider
+photon-blast
 phylyx the disintegrator
+physaloha
 physicus felix
 physicus felix-evil twin
 pi sweven
@@ -932,20 +1073,25 @@ pit demon
 pitlord
 plague rat
 plasma nozzle
-pos pixies
+platopelta
+plunder
 pocket universe
 poison wave
 poke
 poltergeist
 portalmonger
+pos pixies
 positron bolt
 potion of invulnerability
 pound
 pour-tal
 power of fire
 praefectus ludo
+praetor-marius
 prescriptive grammarbot
+press-gang
 pride
+priest
 primal relic
 primus unguis
 prince derric unifier
@@ -956,15 +1102,21 @@ prof garwynne-evil twin
 professor sutterkin
 professor terato
 project zyx
+prospector
 protect the weak
 protectrix
 psionic officer lang
 psychic bug
 psychic network
+pull-up-stakes
 punch
 punctuated equilibrium
+pupgrade
 purifier of souls
 purify
+purple-aeronaut
+puzzling-trinket
+pyr0
 qincans blaster
 q-mechs
 quadracorder
@@ -973,28 +1125,38 @@ quantum fingertrap
 questor jarta
 quicksand
 quintrino flux
+quintrino-warp
 quixo the adventurer
 quixxle stone
 qyxxlyx plague master
 rad penny
 radiant truth
 ragnarok
+ragnarok-prep
 ragwarg
+raider
 raiding knight
 rakuzels chant
+rampaging-brutodon
 random access archives
 ransack
 ransom
+rant-and-rive
 rapid evolution
 reach advantage
 reap or sow
 reassembling automaton
+rebel
 reckless experimentation
 reckless rizzo
 reclaimed by nature
+recorded-history
+recruit
+recruiting-station
 red alert
 red planet ray gun
 redacted
+red-aeronaut
 redhand registry
 red-hot armor
 redlock
@@ -1004,11 +1166,20 @@ relentless assault
 relentless creeper
 relentless whispers
 remote access
+renewed-life
+replay-pod
 replicator
+request-donations
 research smoko
+researcher
 restringuntus
 resurgence
+retribution
+revered-monk
 reverse time
+revna-starsong
+revo-hooligans
+r-evolution
 rhetor gallim
 rigged lottery
 ring of invisibility
@@ -1021,12 +1192,14 @@ rocketeer tryska
 rocketeer tryska-evil twin
 rock-hurling giant
 rogue ogre
+rogue-operation
 ronnie wristclocks
 rooftop laboratory
 rotgrub
 rothais the fierce
 round table
 routine job
+rowdy-skald
 roxador
 ruins of archonis
 rustgnawer
@@ -1046,7 +1219,9 @@ safe place
 sagittariis gaze
 sample collection
 sanctum guardian
+sandhopper
 sanitation engineer
+sariel-the-steadfast
 saurarium
 saurian egg
 saurian plant
@@ -1054,16 +1229,20 @@ saurus rex
 saury about that
 savage clash
 save the pack
+scholar
 sci officer morpheus
 sci officer qincan
 science
 scientifical hack
 scientists bane
 scooped
+scoop-up
 scout
 scout pete
+scout-chief-korijir
 scowly caper
 scrambler storm
+scrapscrounger
 screaming cave
 screechbomb
 scrivener favian
@@ -1079,6 +1258,7 @@ seismo-entangler
 selective preservation
 self-bolstering automata
 selwyn the fence
+senator
 senator bracchus
 senator quintina
 senator shrix
@@ -1094,6 +1274,7 @@ shadow self
 shadows ambassador
 shadowsaurus
 shaffles
+shakedown-sullivan
 shard of greed
 shard of hate
 shard of hope
@@ -1107,11 +1288,19 @@ shield of justice
 shield-u-later
 shield-u-later-evil twin
 shifting battlefield
+shigziso-buggy
+shisnyasi-buggy
+shizyoku-buggy
+shizyoku-swopper
+shock-herder
 shooler
+shopping-spree
 shorty
 shortys brew
 shoulder armor
 shoulder id
+shrewd-investor
+sibyl-waimare
 sic semper tyrannosaurus
 sigil of brotherhood
 signal fire
@@ -1127,8 +1316,10 @@ sir marrows
 siren horn
 skeleton key
 skippy timehog
+skirmisher
 skixuno
 sköll
+skullback-crab
 skullion
 skybooster squadron
 sleep with the fishes
@@ -1141,16 +1332,18 @@ smiling ruth
 smite
 smith
 snag
-snags mirror
 snaglet
+snags mirror
 snarette
 sneklifter
 sniffer
 snudge
 snufflegator
 soboggs thingamabob
+socraterosaurus
 soft landing
 soldiers to flowers
+soleft
 song of spring
 song of the wild
 soul fiddle
@@ -1158,11 +1351,13 @@ soul snatcher
 soulkeeper
 sound the horns
 sow salt
+space-invaders
 spangler box
 sparkfist
 spartasaur
 special agent fingers
 special delivery
+specialist-guthrak
 spectral tunneler
 speed sigil
 spike trap
@@ -1172,7 +1367,10 @@ sporegorger
 sporegorger-evil twin
 spyyyder
 squawker
+squire
 squire alys
+squire-recruitment
+staff-up
 stampede
 standardized testing
 star alliance plant
@@ -1182,15 +1380,20 @@ staunch knight
 stealer of souls
 stealth mode
 stealthster
+steward-su-uzyane
 stilt-kin
 stir up trouble
+stir-crazy
 stirring grave
 stomp
 storm crawler
 storm surge
 strange gizmo
 strange ordination
+strange-shell
+stratosmack
 streke
+stronger-together
 stunner
 subdue
 subject kirby
@@ -1201,23 +1404,30 @@ subtle maul
 subtle otto
 succubus
 sucker punch
+sunk-cost
 survey
+suspended-animation
+sv3-lander
 swallow whole
 swap widget
 swindle
 symon
+symposium
 t3r-35a
 tachyon pulse
 tactical officer moon
 take hostages
 take that smartypants
+talent-scout
 talmage steelheart
 talmage steelheart-evil twin
+tangaika
 taniwha
 taniwha-evil twin
 tantadlin
 tautau vapors
 taxing journey
+teamwork
 techivore pulpate
 techno-alien
 technobabble
@@ -1226,8 +1436,10 @@ techno-fiend
 techno-knight
 techno-saurus
 techno-thief
+tectonic-shift
 teleporter chief tink
 teliga
+temporal-purge
 tempting offer
 tendrils of pain
 tentaclid
@@ -1271,8 +1483,13 @@ the terror
 the ulfberht device
 the vaultkeeper
 the warchest
+the-aember-road
+the-grand-gord
+the-old-tinker
 theory or conjecture
+the-promised-blade
 thero centurion
+the-visible-hand
 they're everywhere
 thieves bane
 thin the herd
@@ -1285,6 +1502,7 @@ tidal wave
 tide warp
 timequake
 timetraveller
+timoti-the-dammed
 tireless crocag
 titan engineer
 titan guardian
@@ -1293,11 +1511,19 @@ titan mechanic
 toad
 tocsin
 together
+token-of-appreciation
 tolas
 tomwa of the glow
 tomwa of the glow-evil twin
 too much to protect
 total recall
+tourist-trap
+toxicuda-venom
+trader
+trade-secrets
+trading-frenzy
+training-costs
+transitory-philosopher
 transporter platform
 transposition sandals
 treasure map
@@ -1312,11 +1538,13 @@ triumph
 trojan sauropod
 troll
 troop call
+trooper
 truebaru
 trust no one
 tunk
 turnkey
 twin bolt emission
+tya-arhi-esquire
 tyxl beambuckler
 ultra gravitron
 ulyq megamouth
@@ -1328,6 +1556,7 @@ umbra-fiend
 umbra-knight
 umbra-saurus
 uncharted lands
+uncommon-currency
 undagnathus
 undagnathus-evil twin
 under pressure
@@ -1342,6 +1571,7 @@ unnatural selection
 unsuspecting prey
 untamed ambassador
 untamed plant
+uplink
 urchin
 urien the circumspect
 urien the circumspect-evil twin
@@ -1360,26 +1590,32 @@ vigor
 vineapple tree
 virtuous works
 voice of rakuzel
+vow-of-blood
+vulka
 wail of the damned
 waking nightmare
 walk the plank
 walls blaster
 war grumpus
 wardrummer
+warrior
 warriors refrain
 warsong
 washed away
 waste not
+watch-your-step
 way of the bear
 way of the pixie
 way of the porcupine
 way of the wolf
 we can all win
+weak-link
 weasand
 whirlpool
 whisper
 whispering reliquary
 whistling darts
+white-aeronaut
 widespread corruption
 wikolia
 wikolia-evil twin
@@ -1406,6 +1642,7 @@ xenos bloodshadow
 xeno-saurus
 xeno-thief
 xenotraining
+yanthi-ghostfin
 yantzee gang
 yo mama mastery
 youngest bear
@@ -1414,15 +1651,19 @@ yurk
 yxili marauder
 yxilo bolter
 yxilx dominator
+yxlix-mesmerist
+yxl-the-iron-captain
 yxlyx stimrager
 yzphyz knowdrone
-zyx researcher
 zap
 zenzizenzizenzic
+zephon-the-opulent
 z-force agent 14
+zizok
 zorg
 z-particle tracker
 z-ray blaster
 z-wave emitter
 zysysyx shockworm
+zyx researcher
 zyzzix the many

@@ -207,6 +207,8 @@ for i in range(0, numdevices): #this searches for connect mics and adds their na
         #print(mic)
         #print(mics)
 
+
+#This is the first window
 deviceindex=tk.StringVar(value=mics[0])
 drop=tk.OptionMenu(window, deviceindex, *mics)
 radio = tk.IntVar()
@@ -214,7 +216,7 @@ Label= tk.Label(text="Choose a recognition type:")
 r1= tk.Radiobutton(window, text="Always Listening", value=1, variable = radio)
 r2= tk.Radiobutton(window, text="Keystroke  " + keystroke, value=2, variable = radio)
 Button = tk.Button(window, text="Begin Voice Recognition", command = selection)
-r1.select()
+r2.select() #starts with keystroke recognition selected
 
 Label.pack(anchor = 'w')
 r1.pack(anchor = 'w')
@@ -223,4 +225,3 @@ miclabel=tk.Label(text="Choose a microphone:").pack(anchor='w')
 drop.pack()
 Button.pack(pady=40)
 window.mainloop()
-

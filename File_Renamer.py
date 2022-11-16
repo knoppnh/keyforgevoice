@@ -1,4 +1,4 @@
-import os, csv
+import os, csv, re
 
 location = "New_Cards/" #change this name to location of new card images. You will need to add these images to the Cards folder once changed
 filename=""
@@ -8,14 +8,18 @@ errata=[]
 output=[]
 files = os.listdir(location)
 k=0
+l=0
 
 old=["Woe_","_",".jpg",".jpeg"] #replace the strings in this list --->
-replaced=["","-",".png",."png"] #with the strings in this list
+replaced=["","-",".png",".png"] #with the strings in this list
 
 for i in range(len(files)):
     filename=files[i]
+    filename=re.sub('\s?\.*?\ Medium', '',filename.strip())
     for j in range(len(old)):
         filename=filename.replace(old[j],replaced[j])
+        for l in range(1000,3000):
+            filename = filename.replace("-"+ str(l), "")
     filename=filename.lower()
     os.rename(location+files[i],location+filename)
     #print(filename)
