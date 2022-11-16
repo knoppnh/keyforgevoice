@@ -17,6 +17,18 @@ Location="Cards/"
 display=8 #adjust this number to change how long in seconds until the image closes
 cardlist=[] #create an empty list for the cards
 errata = []
+CoTA = []
+AoA = []
+WC = []
+MM = []
+DT = []
+WoE = []
+cota=""
+aoa=""
+wc=""
+mm=""
+dt=""
+woe=""
 window_name="Keyforge Match" #name of the window that this script opens when it finds a match 
 keyword=["play", 'fight', 'reap'] #change these values to add keywords for speech recognition. new words will need to be added to the dictionary
 keystroke="`" #change this value to use a different keyboard key for speech recognition
@@ -45,6 +57,12 @@ with open(resource_path("Keyforge_Cards.csv"), encoding="cp1252") as f: #opens l
     for row in csv.reader(f):
         cardlist.append(row[0])
         errata.append(row[1])
+        CoTA.append(row[2])
+        AoA.append(row[3])
+        WC.append(row[4])
+        MM.append(row[5])
+        DT.append(row[6])
+        WoE.append(row[7])
 image=""  #sets .png name to blank
 number=len(cardlist) #finds number of cards in the card list
 # print("Ready to find matches for " + str(number) + " Keyforge cards. The " + recog_type +"(s) is/are: "+ str(recognition))
@@ -83,6 +101,13 @@ def searching(selected):
             print('Press the ' + recognition + ' key to advance')
         while kill.is_set()==True:
             for phrase in speech:
+                #need to put a check in here to find only sets of cards in the data base
+
+
+                
+                
+                
+                
                 if kill.is_set()==False:
                     print("End")
                     break
@@ -154,12 +179,13 @@ def searching(selected):
                     print("End")
                     break
                 pass
-            
+
+
 def close(selected): #this window runs the searching script
     global close, response, found, matches
     close=tk.Tk()
     close.title("Keyforge Voice Helper")
-    close.geometry('400x150')
+    close.geometry('400x300')
     if selected == 1:
          Label=tk.Label(text="Using CONTINUOUS recognition")
          Label1= tk.Label(text='Say these words: ' +str(keyword) + " to recognize a card")
@@ -167,10 +193,27 @@ def close(selected): #this window runs the searching script
          Label=tk.Label(text="Using KEYSTROKE recognition")
          Label1=tk.Label(text='Use this key: ' + str(keystroke) + " (you will need to hit this key to close the image window)")
     Button = tk.Button(close, text="Close Script", command = lambda: escape(selected))
+    #Need to add check boxes here to allow you to pick which sets to pull from
+    global cota
+    cota=tk.BooleanVar()
+    cotabox=tk.Checkbutton(close,text="CoTA", variable = cota)
+    cota.set(True)
+    cotabox.var=cota
+    aoabox=tk.Checkbutton(close,text="AoA", variable = aoa)
+    wcbox=tk.Checkbutton(close,text="WC", variable = wc)    
+    
+    
+    
+    
     response=tk.Label(close,textvariable=feedback) #this label outputs what the program 'heard'
     found=tk.Label(close,textvariable=matches) #this label outputs what the program finds
     Label.pack(side='top', anchor = 'w')
     Label1.pack(anchor='w')
+    cotabox.pack(anchor='w')
+    aoabox.pack(anchor='w')
+    wcbox.pack(anchor='w')
+    
+    
     Button.pack(pady=20, anchor='center')
     response.pack(anchor='w')
     found.pack(anchor='w')
