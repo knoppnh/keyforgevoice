@@ -14,9 +14,18 @@ def resource_path(relative_path):
 
 Location="Cards/"
 display=8 #adjust this number to change how long in seconds until the image closes
+fullcardlist=[]
 cardlist=[] #create an empty list for the cards
 errata = []
-
+sets=[]
+AllSets=[]
+CoTA = []
+AoA = []
+WC = []
+MM = []
+DT = []
+WoE = []
+#GM=[]
 
 
 window_name="Keyforge Match" #name of the window that this script opens when it finds a match 
@@ -45,11 +54,25 @@ nosearch=["the","a", "and", "to", "it", "in", "i", "you", "of", "with", "is", "f
 
 with open(resource_path("Keyforge_Cards.csv"), encoding="cp1252") as f: #opens list of cards and add them to a list
     for row in csv.reader(f):
-        cardlist.append(row[0])
+        if row[2] == "CoTA":
+            CoTA.append(row[0])
+        if row[3] == "AoA":
+            AoA.append(row[0])
+        if row[4] == "WC":
+            WC.append(row[0])
+        if row[5] == "MM":
+            MM.append(row[0])
+        if row[6] == "DT":
+            DT.append(row[0])
+        if row[7] == "WoE":
+            WoE.append(row[0])
+        #if row[8] == "GM":
+        #    GM.append(row[0])
+        fullcardlist.append(row[0])
         errata.append(row[1])
 
 image=""  #sets .png name to blank
-number=len(cardlist) #finds number of cards in the card list
+number=len(fullcardlist) #finds number of cards in the card list
 # print("Ready to find matches for " + str(number) + " Keyforge cards. The " + recog_type +"(s) is/are: "+ str(recognition))
 # if rec_type == 2:
 #     print('Press the ' + recognition + ' key to advance')
@@ -79,7 +102,7 @@ def searching(selected):
             print("Using KEYSTROKE recognition")
             recognition=keystroke
             keyword=""
-        print("Ready to find matches for " + str(number) + " Keyforge cards.")
+        print("Ready to find matches for Keyforge cards.")
         if selected ==1:
             print("The keywords(s) is/are: "+ str(recognition))
         if selected == 2:
@@ -97,6 +120,36 @@ def searching(selected):
                 print(str(Card)) #this prints what the microphone hears to the shell
                 Card=Card.split() #splits input into individual words to check
                 Card=list(dict.fromkeys(Card)) #removes duplicate words from list
+                #need to put a check in here to find only sets of cards in the data base
+                cardlist=[]
+                if cota.get()==1:
+                    for row in range(len(CoTA)):
+                        cardlist.append(CoTA[row])
+                if aoa.get()==1:
+                    for row in range(len(AoA)):
+                        cardlist.append(AoA[row])
+                if wc.get()==1:
+                    for row in range(len(WC)):
+                        cardlist.append(WC[row])
+                if mm.get()==1:
+                    for row in range(len(MM)):
+                        cardlist.append(MM[row])
+                if dt.get()==1:
+                    for row in range(len(DT)):
+                        cardlist.append(DT[row])
+                if woe.get()==1:
+                    for row in range(len(WoE)):
+                        cardlist.append(WoE[row])
+#                 if gm.get()==1:
+#                     for row in range(len(GM)):
+#                         cardlist.append(GM[row])
+
+
+
+                cardlist = sorted(set(cardlist))
+                number=len(cardlist) #finds number of cards in the card list
+
+
                 match=[] #creates a list to add card matches
                 duplicate=[] #creates a list to filter for multiple matches of the same card
                 for i in Card:
@@ -158,12 +211,22 @@ def searching(selected):
                     break
                 pass
 
+def changeset(change):
+    change.get()
+    if allsets.get()==1:
+            cota.set(1)
+            aoa.set(1)
+            wc.set(1)
+            mm.set(1)
+            dt.set(1)
+            woe.set(1)
+            #gm.set(1)
 
 def close(selected): #this window runs the searching script
     global close, response, found, matches
     close=tk.Tk()
     close.title("Keyforge Voice Helper")
-    close.geometry('400x300')
+    close.geometry('400x400')
     if selected == 1:
          Label=tk.Label(text="Using CONTINUOUS recognition")
          Label1= tk.Label(text='Say these words: ' +str(keyword) + " to recognize a card")
@@ -172,12 +235,40 @@ def close(selected): #this window runs the searching script
          Label1=tk.Label(text='Use this key: ' + str(keystroke) + " (you will need to hit this key to close the image window)")
     Button = tk.Button(close, text="Close Script", command = lambda: escape(selected))
     #Need to add check boxes here to allow you to pick which sets to pull from
-
+    global allsets, cota, aoa, wc, mm, dt, woe#, gm
+    allsets = tk.IntVar()
+    cota = tk.IntVar()
+    aoa = tk.IntVar()
+    wc = tk.IntVar()
+    mm = tk.IntVar()
+    dt = tk.IntVar()
+    woe = tk.IntVar()
+    #gm=tk.IntVar()
+    allsetsbox=tk.Checkbutton(close,text="All Sets", variable = allsets, command=lambda: changeset(allsets))
+    cotabox=tk.Checkbutton(close,text="CoTA", variable = cota, command=lambda: changeset(cota))
+    aoabox=tk.Checkbutton(close,text="AoA", variable = aoa, command=lambda: changeset(aoa))
+    wcbox=tk.Checkbutton(close,text="WC", variable = wc, command=lambda: changeset(wc)) 
+    mmbox=tk.Checkbutton(close,text="MM", variable = mm, command=lambda: changeset(mm))
+    dtbox=tk.Checkbutton(close,text="DT", variable = dt, command=lambda: changeset(dt))
+    woebox=tk.Checkbutton(close,text="WoE", variable = woe, command=lambda: changeset(woe))
+    #gmbox=tk.Checkbutton(close,text="GM", variable = gm, command=lambda: changeset(gm))
+    
+    allsets.set(1)
+    changeset(allsets)
+    allsets.set(0)
     
     response=tk.Label(close,textvariable=feedback) #this label outputs what the program 'heard'
     found=tk.Label(close,textvariable=matches) #this label outputs what the program finds
     Label.pack(side='top', anchor = 'w')
     Label1.pack(anchor='w')
+    allsetsbox.pack(anchor='w')
+    cotabox.pack(anchor='w')
+    aoabox.pack(anchor='w')
+    wcbox.pack(anchor='w')
+    mmbox.pack(anchor='w')
+    dtbox.pack(anchor='w')
+    woebox.pack(anchor='w')
+    #gmbox.pack(anchor='w')
         
     Button.pack(pady=20, anchor='center')
     response.pack(anchor='w')
