@@ -45,8 +45,8 @@ kill=threading.Event()
 kill.set()
 
 window=tk.Tk()
-window.geometry('300x225')
-window.resizable(False, False)
+window.geometry('400x300')
+#window.resizable(False, False)
 window.title("Keyforge Voice Helper")
 
 #nosearch words are not checked for matches - add or remove words as needed
@@ -185,7 +185,7 @@ def searching(selected):
                             img=cv2.resize(img,(300,420)) #this resizes the images
                             cv2.imshow(window_name, img)
                             if selected == 2:
-                                cv2.waitKey(display*1000+4000) 
+                                cv2.waitKey(display*1000) 
                                 #keyboard.wait(keystroke)
                             else:
                                 cv2.waitKey(display*1000)
@@ -245,12 +245,12 @@ def close(selected): #this window runs the searching script
     woe = tk.IntVar()
     #gm=tk.IntVar()
     allsetsbox=tk.Checkbutton(close,text="All Sets", variable = allsets, command=lambda: changeset(allsets))
-    cotabox=tk.Checkbutton(close,text="CoTA", variable = cota, command=lambda: changeset(cota))
-    aoabox=tk.Checkbutton(close,text="AoA", variable = aoa, command=lambda: changeset(aoa))
-    wcbox=tk.Checkbutton(close,text="WC", variable = wc, command=lambda: changeset(wc)) 
-    mmbox=tk.Checkbutton(close,text="MM", variable = mm, command=lambda: changeset(mm))
-    dtbox=tk.Checkbutton(close,text="DT", variable = dt, command=lambda: changeset(dt))
-    woebox=tk.Checkbutton(close,text="WoE", variable = woe, command=lambda: changeset(woe))
+    cotabox=tk.Checkbutton(close,text="Call of the Archons", variable = cota, command=lambda: changeset(cota))
+    aoabox=tk.Checkbutton(close,text="Age of Ascension", variable = aoa, command=lambda: changeset(aoa))
+    wcbox=tk.Checkbutton(close,text="World's Collide", variable = wc, command=lambda: changeset(wc)) 
+    mmbox=tk.Checkbutton(close,text="Mass Mutation", variable = mm, command=lambda: changeset(mm))
+    dtbox=tk.Checkbutton(close,text="Dark Tidings", variable = dt, command=lambda: changeset(dt))
+    woebox=tk.Checkbutton(close,text="Winds of Exchange", variable = woe, command=lambda: changeset(woe))
     #gmbox=tk.Checkbutton(close,text="GM", variable = gm, command=lambda: changeset(gm))
     
     allsets.set(1)
@@ -282,7 +282,10 @@ def escape(selected):
     close.destroy()
 
 def selection(): #this selects the microphone inputs from the radio buttons
+    global display
     selected = radio.get()
+    display = delay.get()
+    display=int(display)
     #print(deviceindex.get())
     for i in range(0,countmics):
         if mics[i]==deviceindex.get():
@@ -316,10 +319,15 @@ r1= tk.Radiobutton(window, text="Always Listening", value=1, variable = radio)
 r2= tk.Radiobutton(window, text="Keystroke  " + keystroke, value=2, variable = radio)
 Button = tk.Button(window, text="Begin Voice Recognition", command = selection)
 r2.select() #starts with keystroke recognition selected
+delaylbl=tk.Label(text="Time for card window to display in seconds")
+delay= tk.Entry(window)
+delay.insert(0,8)
 
 Label.pack(anchor = 'w')
 r1.pack(anchor = 'w')
 r2.pack(anchor ='w')
+delaylbl.pack(anchor='w')
+delay.pack()
 miclabel=tk.Label(text="Choose a microphone:").pack(anchor='w')
 drop.pack()
 Button.pack(pady=40)
