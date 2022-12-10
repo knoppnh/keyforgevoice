@@ -83,7 +83,6 @@ def searching(selected):
         audio_device = micindex,
         lm=resource_path('Keyforge.lm'), #this is the language model file
         dic=resource_path('Keyforge.dic') #this is the dictionary file
-        #hmm=resource_path('en-us/')
     )
     j=0
     i=0
@@ -116,7 +115,6 @@ def searching(selected):
                 feedback=Card
                 if feedback!="":
                     response.configure(text="Heard: " + feedback)
-                #res.pack(anchor = "w")
                 print(str(Card)) #this prints what the microphone hears to the shell
                 Card=Card.split() #splits input into individual words to check
                 Card=list(dict.fromkeys(Card)) #removes duplicate words from list
@@ -183,13 +181,13 @@ def searching(selected):
                             if errata[i] != "1":
                                  cv2.putText(img, "Errata'd" , (30, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_8)
                             img=cv2.resize(img,(300,420)) #this resizes the images
+                            cv2.namedWindow(window_name, flags=cv2.WND_PROP_TOPMOST)
                             cv2.imshow(window_name, img)
                             if selected == 2:
                                 cv2.waitKey(display*1000) 
                                 #keyboard.wait(keystroke)
                             else:
                                 cv2.waitKey(display*1000)
-                                #time.sleep(display)
                             cv2.destroyAllWindows()
                             time.sleep(0.1)
                             image=""
